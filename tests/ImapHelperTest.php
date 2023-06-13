@@ -3,7 +3,7 @@ namespace Checkdomain\Comodo\Tests;
 
 use Checkdomain\Comodo\ImapExtension;
 use Checkdomain\Comodo\ImapHelper;
-use Zend\Mail\Storage\Message;
+use Laminas\Mail\Storage\Message;
 
 /**
  * Class ImapHelperTest
@@ -37,7 +37,7 @@ class ImapHelperTest extends AbstractTest
     /**
      * @param int $messageId
      *
-     * @return \PHPUnit_Framework_MockObject_MockObject|\Zend\Mail\Storage\Message
+     * @return \PHPUnit_Framework_MockObject_MockObject|\Laminas\Mail\Storage\Message
      */
     public function createImapStorageMessage($messageId)
     {
